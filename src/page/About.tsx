@@ -3,15 +3,15 @@ return (
     <>
     
 
-<div className=" bg-[url(./src/assets/starfield-tony-soprano-1.jpg)] bg-center h-120 w-200 object-center mx-auto mb-4" />
+<div className=" bg-[url(../assets/starfield-tony-soprano-1.jpg)] bg-center h-120 w-200 object-center mx-auto mb-4" />
 <div className="px-4 sm:px-6 lg:px-16 max-w-5xl mx-auto"> 
 
 <div className='flex gap-60 text-center  text-xl font-(family-name:--Roboto) text-black mx-auto mb-4'> 
             Tony Soprano es miembro de la mafia italoamericana y, más adelante se convierte en el jefe de la familia criminal DiMeo de North Jersey. Muestra rasgos de comportamiento característicos de un sociópata violento, lucha contra la depresión y es propenso a los ataques de pánico. A partir del episodio piloto, busca tratamiento de la Dra. Jennifer Melfi y permanece en terapia de forma intermitente. </div>   
-<div className=" bg-[url(./src/assets/la-famille-des-sopranos.jpg)] bg-center h-120 w-200 mx-auto mb-4" />
+<div className=" bg-[url(../assets/la-famille-des-sopranos.jpg)] bg-center h-120 w-200 mx-auto mb-4" />
 
-<div className=" bg-[url(./src/assets/carmela.jpg)] bg-center h-100 w-150 mx-auto mb-4" />
-<div className=" bg-[url(./src/assets/the-sopranos-family-photo.webp)] bg-center h-90 w-150 mx-auto mb-4" />
+<div className=" bg-[url(../assets/carmela.jpg)] bg-center h-100 w-150 mx-auto mb-4" />
+<div className=" bg-[url(../assets/the-sopranos-family-photo.webp)] bg-center h-90 w-150 mx-auto mb-4" />
 <div className='flex gap-60 text-center  text-xl font-(family-name:--Roboto) text-black'> 
             Tony lucha por equilibrar las necesidades conflictivas de su familia (su esposa Carmela, su hija Meadow, su hijo A.J. y su madre Livia) con las de la mafia. 
             Tony es un amante de los animales y disfruta alimentando a los patos que visitan su piscina. Tiene un apego sentimental 
@@ -21,7 +21,7 @@ return (
             intervención de Christopher Moltisanti, cuando Tony escucha que Christopher asfixió accidentalmente al perro de 
             Adrianna, se enfurece y dice: "¡Debería asfixiarte, pequeño imbécil!". </div>
                 
-<div className=" bg-[url(./src/assets/habano.webp)] bg-center h-190 w-170 mx-auto mb-4" />
+<div className=" bg-[url(../assets/habano.webp)] bg-center h-190 w-170 mx-auto mb-4" />
 <div className='flex gap-60 text-center  text-xl font-(family-name:--Roboto) text-black'> 
                 
             A lo largo de la serie, se muestra que Tony es un fumador frecuente de puros, así como un fumador ocasional de 
@@ -34,7 +34,7 @@ return (
             Nueva York.
 </div>
 
-<div className=" bg-[url(./src/assets/blundetto.jpg)] bg-center h-110 w-170 mx-auto mb-4" />
+<div className=" bg-[url(../assets/blundetto.jpg)] bg-center h-110 w-170 mx-auto mb-4" />
 <div className='flex gap-60 text-center  text-xl font-(family-name:--Roboto) text-black'> 
             Es un entusiasta de las armas y se muestra que tiene un arsenal en su casa. Regala armas de cumpleaños a su suegro Hugh
              DeAngelis (en "Marco Polo") y recibe una de Bobby Baccialieri en su cumpleaños (en "Soprano Home Movies").

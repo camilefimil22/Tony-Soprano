@@ -3,7 +3,7 @@ export default function Contact(){
 return ( 
     <> 
     <div className="px-4 sm:px-6 lg:px-16 max-w-5xl mx-auto"> 
-    <div className="bg-[url(./src/assets/The_Sopranos-a.jpg)] bg-center h-90 w-150 mx-auto mb-4 mt-10" />
+    <div className="bg-[url(..assets/The_Sopranos-a.jpg)] bg-center h-90 w-150 mx-auto mb-4 mt-10" />
 
 <li className='list-inside text-black text-2xl font-(family-name:--Roboto)'>
         <li>Willie Overall, asesinado a tiros por Tony para "hacer sus huesos", un requisito para convertirse en un "made men" </li>
@@ -25,7 +25,7 @@ y Ray queda magullado pero huye.
 </div>
 
 
-<div className="bg-[url(./src/assets/membersonly.jpg)] bg-center h-90 w-150 mx-auto mb-4" />
+<div className="bg-[url(../assets/membersonly.jpg)] bg-center h-90 w-150 mx-auto mb-4" />
 
 <div className='flex gap-60 text-center  text-xl font-(family-name:--Roboto) text-black mx-auto mb-4'> 
 
