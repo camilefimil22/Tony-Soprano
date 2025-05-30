@@ -9,11 +9,11 @@ import CircularGallery from './CircularGallery.tsx'
 import Sueños from './Sueños.tsx'
 
 const demoItems = [
-  { link: '/', text: 'Inicio', image: './src/assets/tony.jpg' },
-  { link: '/about', text: 'Biografia', image: './src/assets/tony.jpg' },
-  { link: '/contact', text: 'Trabajo', image: './src/assets/tony.jpg' },
-  { link: '/terapia', text: 'Terapia', image: './src/assets/tony.jpg'},
-  { link: '/sueños', text: 'Sueños', image: './src/assets/tony.jpg'}
+  { link: '/', text: 'Inicio', image: './assets/tony.jpg' },
+  { link: '/about', text: 'Biografia', image: './assets/tony.jpg' },
+  { link: '/contact', text: 'Trabajo', image: './assets/tony.jpg' },
+  { link: '/terapia', text: 'Terapia', image: './assets/tony.jpg'},
+  { link: '/sueños', text: 'Sueños', image: './assets/tony.jpg'}
 ];
 
 function App(){
