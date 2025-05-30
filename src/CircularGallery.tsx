@@ -1,3 +1,5 @@
+import Meadow from './assets/meadow.jpg'
+import Junior from '../assets/junior.jpg'
 import { useRef, useEffect } from "react";
 import {
   Renderer,
@@ -529,7 +531,7 @@ class App {
         text: "Train Track",
       },
       {
-        image: `../assets/junior.jpg`,
+        image: Junior,
         text: "Santorini",
       },
       {
@@ -537,7 +539,7 @@ class App {
         text: "Blurry Lights",
       },
       {
-        image: `../assets/meadow.jpg`,
+        image: Meadow, 
         text: "New York",
       },
       {
