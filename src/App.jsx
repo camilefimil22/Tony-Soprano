@@ -7,13 +7,15 @@ import FlowingMenu from './FlowingMenu.jsx'
 import Terapia from './Terapia.tsx'
 import CircularGallery from './CircularGallery.tsx'
 import Sueños from './Sueños.tsx'
+import tony from './assets/tony.jpg'
+
 
 const demoItems = [
-  { link: '/', text: 'Inicio', image: './assets/tony.jpg' },
-  { link: '/about', text: 'Biografia', image: './assets/tony.jpg' },
-  { link: '/contact', text: 'Trabajo', image: './assets/tony.jpg' },
-  { link: '/terapia', text: 'Terapia', image: './assets/tony.jpg'},
-  { link: '/sueños', text: 'Sueños', image: './assets/tony.jpg'}
+  { link: '/', text: 'Inicio', image: tony },
+  { link: '/about', text: 'Biografia', image: tony },
+  { link: '/contact', text: 'Trabajo', image: tony },
+  { link: '/terapia', text: 'Terapia', image: tony},
+  { link: '/sueños', text: 'Sueños', image: tony}
 ];
 
 function App(){
