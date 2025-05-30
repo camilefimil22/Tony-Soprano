@@ -1,13 +1,15 @@
-import starfield './assets/starfield-tony-soprano-1.jpg';
+import starfield from '../assets/starfield-tony-soprano-1.jpg';
 
  
  
  export default function About(){
 return ( 
     <>
-    
 
-<div className=" bg-[url(../assets/starfield-tony-soprano-1.jpg)] bg-center h-120 w-200 object-center mx-auto mb-4" />
+<div className=" bg-center h-120 w-200 object-center mx-auto mb-4">
+    <img src={starfield}></img>
+</div>
+
 <div className="px-4 sm:px-6 lg:px-16 max-w-5xl mx-auto"> 
 
 <div className='flex gap-60 text-center  text-xl font-(family-name:--Roboto) text-black mx-auto mb-4'> 
