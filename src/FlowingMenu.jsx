@@ -1,5 +1,6 @@
 import React from 'react';
 import { gsap } from 'gsap';
+import { Link } from 'react-router';
 
 function FlowingMenu({ items = [] }) {
   return (
@@ -71,14 +72,16 @@ function MenuItem({ link, text, image }) {
 
   return (
     <div className="h-20 flex-1 relative overflow-hidden text-center shadow-[0_-1px_0_0_#fff]" ref={itemRef}>
-      <a
+      <Link to={link}>
+        <div
         className=" flex items-center justify-center h-full relative cursor-pointer uppercase no-underline font-semibold text-white text-[2vh] hover:text-[#060606] focus:text-white focus-visible:text-[#060606]"
-        href={link}
+       
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-      >
+        >
         {text}
-      </a>
+        </div>
+      </Link>
       <div
         className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none bg-pink translate-y-[101%]"
         ref={marqueeRef}
