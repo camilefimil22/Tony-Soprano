@@ -529,7 +529,7 @@ class App {
         text: "Train Track",
       },
       {
-        image: `/src/assets/junior.jpg`,
+        image: `../assets/junior.jpg`,
         text: "Santorini",
       },
       {
@@ -537,7 +537,7 @@ class App {
         text: "Blurry Lights",
       },
       {
-        image: `/src/assets/meadow.jpg`,
+        image: `../assets/meadow.jpg`,
         text: "New York",
       },
       {

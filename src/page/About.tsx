@@ -1,3 +1,7 @@
+import starfield './assets/starfield-tony-soprano-1.jpg';
+
+ 
+ 
  export default function About(){
 return ( 
     <>
