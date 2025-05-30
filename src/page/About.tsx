@@ -6,9 +6,8 @@ import starfield from '../assets/starfield-tony-soprano-1.jpg';
 return ( 
     <>
 
-<div className=" bg-center h-120 w-200 object-center mx-auto mb-4">
-    <img src={starfield}></img>
-</div>
+    <img className=" bg-center h-full w-200 object-center mx-auto mb-4" src={starfield}></img>
+
 
 <div className="px-4 sm:px-6 lg:px-16 max-w-5xl mx-auto"> 
 

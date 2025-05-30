@@ -24,7 +24,7 @@ function App(){
     <>
     
 
-<div className="flex justify-center align-center font-sans bg-black w-475 h-50 block ">
+<div className="flex justify-center align-center font-sans bg-black ">
   <FlowingMenu items={demoItems} />
 </div>
 <div className="">
