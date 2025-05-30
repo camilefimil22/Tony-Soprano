@@ -1,5 +1,5 @@
 import Meadow from './assets/meadow.jpg'
-import Junior from '../assets/junior.jpg'
+import Junior from './assets/junior.jpg'
 import { useRef, useEffect } from "react";
 import {
   Renderer,
