@@ -1,5 +1,5 @@
 import starfield from '../assets/starfield-tony-soprano-1.jpg';
-
+import famille from '../assets/la-famille-des-sopranos.jpg'
  
  
  export default function About(){
@@ -7,13 +7,13 @@ return (
     <>
 
     <img className=" bg-center h-full w-200 object-center mx-auto mb-4" src={starfield}></img>
-
-
-<div className="px-4 sm:px-6 lg:px-16 max-w-5xl mx-auto"> 
+    <div className="px-4 sm:px-6 lg:px-16 max-w-5xl mx-auto"> 
 
 <div className='flex gap-60 text-center  text-xl font-(family-name:--Roboto) text-black mx-auto mb-4'> 
             Tony Soprano es miembro de la mafia italoamericana y, más adelante se convierte en el jefe de la familia criminal DiMeo de North Jersey. Muestra rasgos de comportamiento característicos de un sociópata violento, lucha contra la depresión y es propenso a los ataques de pánico. A partir del episodio piloto, busca tratamiento de la Dra. Jennifer Melfi y permanece en terapia de forma intermitente. </div>   
-<div className=" bg-[url(../assets/la-famille-des-sopranos.jpg)] bg-center h-120 w-200 mx-auto mb-4" />
+
+    <img className= " bg-center h-full h-120 w-200 mx-auto mb-4" src= {famille}></img>
+    <div className="px-4 sm:px-6 lg:px-16 max-w-5xl mx-auto" />
 
 <div className=" bg-[url(../assets/carmela.jpg)] bg-center h-100 w-150 mx-auto mb-4" />
 <div className=" bg-[url(../assets/the-sopranos-family-photo.webp)] bg-center h-90 w-150 mx-auto mb-4" />
